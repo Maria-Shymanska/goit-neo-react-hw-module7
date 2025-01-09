@@ -1,0 +1,59 @@
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+  outline: none;
+  border: 2px solid darkgray;
+  background-color: rgba(235, 233, 233, 0.991);
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+.btn:active {
+  background-color: #f0f0f0;
+  border-color: #aaa;
+}
+
+.form {
+  width: 300px;
+  margin: 20px auto;
+  border: solid 2px black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.label:last-of-type {
+  margin-bottom: 20px;
+}
+
+.field {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  line-height: 1.5;
+}
+
+.field:focus {
+  outline: none;
+  border: 2px solid blue;
+}
+
+.err {
+  color: red;
+}

@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+  outline: none;
+  border: 2px solid darkgray;
+  background-color: rgba(235, 233, 233, 0.991);
+  border-radius: 3px;
+}
+
+button:hover,
+button:focus {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+button:active {
+  background-color: #f0f0f0;
+  border-color: #aaa;
+}
